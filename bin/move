@@ -4,6 +4,4 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
-"1" = "#{board[1]}"
-"2" = "#{board[2]}"
-"3" = "#{board[3]}"
+
