@@ -7,12 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-board = ["   ","   ","   "]
-
-def input_to_index(user_input)
-  user_input.to_i - 1
+def input_to_index(num)
+  return num.to_i - 1
 end
 
-def move(board, index, char="X")
-  board[index] = char
-end
+def move(board, index, choice = "X")
+  board[index] = choice.upcase
+  return board
+end 
