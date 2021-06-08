@@ -9,6 +9,6 @@ end
 # code your input_to_index and move method here!
 board = ["   ","   ","   "]
 
-def update_array_at_with(array, index, value)
+def 
   array[index] = 1
 end
